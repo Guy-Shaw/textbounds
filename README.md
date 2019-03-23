@@ -1,6 +1,6 @@
 # textbounds -- height and width of text
 
-`textbounds` measures the heigh and width of a piece of text.
+`textbounds` measures the height and width of a piece of text.
 Height is number of lines and width is the length of the longest line,
 also know as columns.
 
@@ -12,11 +12,11 @@ The test can come from a piece of text in memory or from a file.
 In addition to the library, there is a main driver program
 that take filenames and various options.  But the library
 can be used without the main program, and a small subset of
-the lbrary can be used.
+the library can be used.
 
 ## Main program, standard options
 
-The command, `textbounds` takes an optional ist of files.
+The command, `textbounds` takes an optional list of files.
 It recognizes options that specify how to show the filename,
 lines and columns.
 
@@ -41,7 +41,7 @@ Show some feedback while running.
 --format=_formatspecifier_
 
 Where format specifier is something sort of like a printf
-format, except that the the only format placeholders are
+format, except that the only format placeholders are
  { %f , %l , %c , and %% }.
 
 1. %f gets replaced with the filename
